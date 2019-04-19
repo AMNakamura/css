@@ -1,0 +1,45 @@
+/* Insert this stylesheet into the head of the page 
+   <head>
+   <link rel="stylesheet" type="text/css" href="Sample1_SuperSimple.css">
+   </head>
+*/
+
+/* Style for the entire body, unless overridden by inline styles or more detailed selectors */
+
+body {
+
+  margin: 25px;
+
+  font-family: "Times New Roman", Times, serif;
+
+  font-size: 0.875em;
+  }
+
+/* Header 1 tags*/
+
+h1 {
+
+  font-size: 1em;
+
+  font-weight: normal;
+
+  margin-top: 5px;
+
+}
+
+/* Code snippet tags */
+
+code {
+  font-size: 0.875em;
+  font-weight: normal;
+  }
+
+/* For dividers or elements with a class statement (e.g., class="codeclass"). */
+
+.codeclass { background-color: LightGray;
+             border-style: none
+             width: 350px
+             margin: auto;
+             padding: 25px 50px 75px;
+             font-family: "Courier New", Monospace;            
+             }
